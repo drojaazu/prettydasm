@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>prettydasm</title>
+  <meta name="description" content="A disassembly -> HTML prettifier">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>prettydasm</h1>
+  <p>A simple tool for making a disassembly more readable on a web page. It is aimed primarily at MAME/MESS dumps, but will work with any dump following the same pattern. Please see [github] to download and for instructions.</p>
+  <h2>See it in action</h2>
+  <h3>Standard pre tag:</h3>
+  <pre id='plain_pre'></pre>
+  <h3>Formatted with prettydasm:</h3>
+  <a id='pretty_pre_a'>
+  <p>Paste in disassembly text and click the button:</p>
+  <textarea id='pre_input'></textarea>
+  <br>
+  <button id='pre_submit'>Make it pretty!</button>
+
+
+
+  <script src="prettydasm_68k.js"></script>
+  <script src="example.js"></script>
+</body>
+</html>
