@@ -186,7 +186,7 @@
     while(elemsLen--)
       if(elems[elemsLen].tagName != 'PRE') elems.splice(elemsLen,1);
     if (elems.length > 0)
-      for (var it = 0; it < dasms.length; it++)
-        makepretty_68k(dasms[it]);
+      for (var it = 0; it < elems.length; it++)
+        makepretty_68k(elems[it]);
   }
 })();
