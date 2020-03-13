@@ -1,0 +1,25 @@
+{
+  "name": "prettydasm",
+  "version": "2.0.0",
+  "description": "Prettify disassemblies from MAME",
+  "main": "prettydasm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyogaMasaki/prettydasm.git"
+  },
+  "keywords": [
+    "mame",
+    "retrogaming",
+    "disassembly",
+    "prettify"
+  ],
+  "author": "Damian Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyogaMasaki/prettydasm/issues"
+  },
+  "homepage": "https://github.com/RyogaMasaki/prettydasm#readme"
+}
