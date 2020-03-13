@@ -4,6 +4,12 @@ A tool to format text disassemblies into readable HTML tables.
 
 See http://sudden-desu.net/prettydasm for an example.
 
+Installation
+------------
+Clone the git repository or install via npm:
+
+    npm install prettydasm
+
 Usage
 -----
 Written in plain JavaScript; no framework/library dependencies.
