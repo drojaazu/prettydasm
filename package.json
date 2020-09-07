@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RyogaMasaki/prettydasm.git"
+    "url": "git+https://github.com/drojaazu/prettydasm.git"
   },
   "keywords": [
     "mame",
@@ -19,7 +19,7 @@
   "author": "Damian Rogers",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RyogaMasaki/prettydasm/issues"
+    "url": "https://github.com/drojaazu/prettydasm/issues"
   },
-  "homepage": "https://github.com/RyogaMasaki/prettydasm#readme"
+  "homepage": "https://github.com/drojaazu/prettydasm#readme"
 }
