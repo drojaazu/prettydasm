@@ -1,6 +1,6 @@
 {
   "name": "prettydasm",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Prettify disassemblies from MAME",
   "main": "prettydasm.js",
   "scripts": {

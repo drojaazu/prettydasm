@@ -287,13 +287,15 @@
   }
 
   function parse_comment(node) {
-    var split = node.textContent.split(COMMENT_MARKER, 2);
-    if (split.length < 2) return node;
+    var pieces = node.textContent.split(COMMENT_MARKER);
+    if (pieces.length < 2) return node;
 
-    node.textContent = split[0].trim();
+    [opcode, ...comment] = pieces
+    comment = comment.join(COMMENT_MARKER)
+    node.textContent = opcode.trim();
 
     var comment_td = document.createElement('TD');
-    comment_td.setAttribute(HOVER_ATTR, split[1].trim());
+    comment_td.setAttribute(HOVER_ATTR, comment.trim());
     comment_td.innerHTML = comment_content;
     comment_td.className = CSSCLASS_COMMENT;
     comment_td.addEventListener('mouseover', comment_popup);
