@@ -144,7 +144,18 @@
       zero_prefix: false,
       opcode_sizes: false,
       registers: 'pc|r1[0-5]|r[0-9]'
-    }
+    },
+
+    // Basically the same registers as 8086, but with some register name changes
+    // MAME adopts the NEC naming variation, so we account for that here
+    'nec-v': {
+      name: 'NEC V-Series',
+      hex_notation: 'h',
+      hex_postfix: true,
+      zero_prefix: true,
+      opcode_sizes: false,
+      registers: 'ip|[acdb][whl]|[sb]p|[sd]i|[dsp]s|eg'
+    },
   };
 
   // -------------------- INTERNAL CONFIGURATION
